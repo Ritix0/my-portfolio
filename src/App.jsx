@@ -37,6 +37,8 @@ import shoeRecolor from './assets/portfolio/Сложная перекраска.
 import shoeLight from './assets/portfolio/Смена освещения.png';
 import shoePlastic from './assets/portfolio/Футуристичный полупрозрачный пластик.png';
 import shoeMacro from './assets/portfolio/Макро-детализация.png';
+import modelLogo from './assets/portfolio/Наложение логотипа.png';
+import modelBase from './assets/portfolio/Модель.png';
 
 const projects = [
   { id: 1, category: 'brands', before: personBase, after: personAtmosphere, tags: ['atmospheric', 'lighting'] },
@@ -65,6 +67,13 @@ const projects = [
     after: shoeMacro, 
     tags: ['macro', 'lighting'] 
   },
+  { 
+  id: 21, 
+  category: 'brands', 
+  before: modelBase, 
+  after: modelLogo, 
+  tags: ['logo_overlay'] 
+},
 ];
 
 const CONTACTS = {

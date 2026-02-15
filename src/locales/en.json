@@ -62,7 +62,8 @@
       "lighting": "Lighting change",
       "plastic": "Translucent plastic",
       "effects": "Complex effects",
-      "macro": "Macro detailing"
+      "macro": "Macro detailing",
+      "logo_overlay": "Logo overlay"
     }
   }
 }
