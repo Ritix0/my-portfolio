@@ -1,0 +1,67 @@
+{
+  "translation": {
+    "nav": {
+      "works": "Portfolio",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "AI Image Editor",
+      "subtitle": "Professional content without photoshoots. Transforming photos using advanced neural networks.",
+      "cta_tg": "Contact via Telegram",
+      "cta_avito": "Avito Profile"
+    },
+    "categories": {
+      "all": "All examples",
+      "ecommerce": "E-commerce",
+      "brands": "Brands & Celebrities",
+      "realestate": "Real Estate"
+    },
+    "portfolio": {
+      "unlimited_title": "And that's not all",
+      "unlimited_text": "Neural networks allow for the realization of almost any visual idea. If you have a specific task not included in the examples — just describe it. Anything is possible; the key is to understand the desired result."
+    },
+    "about": {
+      "title": "New Standard of Visual Content",
+      "description": "I solve specific business problems, saving budget on real shoots and 3D visualization.",
+      "brands_title": "Brands & Celebrities",
+      "brands_text": "AI photoshoots without studio visits. Isolated clothing and location replacement with full character consistency.",
+      "ecom_title": "E-commerce",
+      "ecom_text": "Advertising posters from a single product photo. Material changes, recoloring, and complex effects.",
+      "estate_title": "Real Estate",
+      "estate_text": "Virtual staging and interior finish changes for walls and floors while maintaining exact perspective."
+    },
+    "contact": {
+      "title": "Ready to start a project?",
+      "subtitle": "Describe your task, and I will offer the best solution.",
+      "tg": "Write on Telegram",
+      "avito": "Avito Profile"
+    },
+    "slider": {
+      "before": "Before",
+      "after": "After"
+    },
+    "details": {
+      "atmospheric": "Atmospheric effects",
+      "business": "Business portrait",
+      "material_color": "Material & color change",
+      "light_isolated": "Isolated lighting",
+      "style_transfer": "Style transfer",
+      "style_ref": "Style by reference",
+      "accessories_ref": "Accessories by reference",
+      "accessories": "Targeted accessory addition",
+      "view_change": "Window view change",
+      "interior_finish": "Interior finish change",
+      "furnishing": "Virtual furnishing",
+      "time_day": "Time of day change",
+      "splash": "Splash & ripple",
+      "suede": "Rough suede",
+      "ice": "Ice effect",
+      "levitation": "Advertising levitation",
+      "recolor": "Complex recoloring",
+      "lighting": "Lighting change",
+      "plastic": "Translucent plastic",
+      "effects": "Complex effects"
+    }
+  }
+}
