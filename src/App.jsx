@@ -36,6 +36,7 @@ import shoeLevitation2 from './assets/portfolio/Рекламный «Левит�
 import shoeRecolor from './assets/portfolio/Сложная перекраска.png';
 import shoeLight from './assets/portfolio/Смена освещения.png';
 import shoePlastic from './assets/portfolio/Футуристичный полупрозрачный пластик.png';
+import shoeMacro from './assets/portfolio/Макро-детализация.png';
 
 const projects = [
   { id: 1, category: 'brands', before: personBase, after: personAtmosphere, tags: ['atmospheric', 'lighting'] },
@@ -57,6 +58,13 @@ const projects = [
   { id: 17, category: 'ecommerce', before: shoeBase, after: shoeRecolor, tags: ['recolor'] },
   { id: 18, category: 'ecommerce', before: shoeBase, after: shoeLight, tags: ['lighting'] },
   { id: 19, category: 'ecommerce', before: shoeBase, after: shoePlastic, tags: ['plastic', 'material_color'] },
+  { 
+    id: 20, 
+    category: 'ecommerce', 
+    before: shoeBase, 
+    after: shoeMacro, 
+    tags: ['macro', 'lighting'] 
+  },
 ];
 
 const CONTACTS = {
