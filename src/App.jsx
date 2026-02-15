@@ -40,6 +40,17 @@ import shoeMacro from './assets/portfolio/Макро-детализация.png'
 import modelLogo from './assets/portfolio/Наложение логотипа.png';
 import modelBase from './assets/portfolio/Модель.png';
 
+import girlBase from './assets/portfolio/Девушка.png';
+import girlNight from './assets/portfolio/Ночной мегаполис.png';
+import girlTravel from './assets/portfolio/Путешествие.png';
+import girlStyle from './assets/portfolio/Стильная.png';
+import trashBase from './assets/portfolio/Девушка и мусор.png';
+import trashClear from './assets/portfolio/Очистка.png';
+import selfieBase from './assets/portfolio/Селфи для стилизации.png';
+import selfieStyle from './assets/portfolio/Любой стиль.png';
+import bizBase from './assets/portfolio/Бизнес-апгрейд.png';
+import bizUpgrade from './assets/portfolio/Бизнес.png';
+
 const projects = [
   { id: 1, category: 'brands', before: personBase, after: personAtmosphere, tags: ['atmospheric', 'lighting'] },
   { id: 2, category: 'brands', before: personBase, after: personBusiness, tags: ['business', 'lighting'] },
@@ -74,6 +85,12 @@ const projects = [
   after: modelLogo, 
   tags: ['logo_overlay'] 
 },
+{ id: 22, category: 'personal', before: girlBase, after: girlNight, tags: ['view_change', 'lighting'] },
+{ id: 23, category: 'personal', before: girlBase, after: girlTravel, tags: ['travel', 'view_change'] },
+{ id: 24, category: 'personal', before: girlBase, after: girlStyle, tags: ['style_transfer'] },
+{ id: 25, category: 'personal', before: trashBase, after: trashClear, tags: ['cleanup'] },
+{ id: 26, category: 'personal', before: selfieBase, after: selfieStyle, tags: ['any_style', 'style_transfer'] },
+{ id: 27, category: 'personal', before: bizBase, after: bizUpgrade, tags: ['business', 'lighting'] },
 ];
 
 const CONTACTS = {
@@ -81,7 +98,7 @@ const CONTACTS = {
   telegram: "https://t.me/M1LLiGaT"
 };
 
-const CATEGORIES = ['ecommerce', 'brands', 'realestate'];
+const CATEGORIES = ['ecommerce', 'brands', 'realestate', 'personal'];
 
 function App() {
   const { t, i18n } = useTranslation();

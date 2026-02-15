@@ -15,7 +15,8 @@
       "all": "All examples",
       "ecommerce": "E-commerce",
       "brands": "Brands & Celebrities",
-      "realestate": "Real Estate"
+      "realestate": "Real Estate",
+      "personal": "Personal Use"
     },
     "portfolio": {
       "unlimited_title": "And that's not all",
@@ -63,7 +64,10 @@
       "plastic": "Translucent plastic",
       "effects": "Complex effects",
       "macro": "Macro detailing",
-      "logo_overlay": "Logo overlay"
+      "logo_overlay": "Logo overlay",
+      "cleanup": "Object removal & cleanup",
+      "any_style": "Any art style transfer",
+      "travel": "Travel photography"
     }
   }
 }
