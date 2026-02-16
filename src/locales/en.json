@@ -67,7 +67,11 @@
       "logo_overlay": "Logo overlay",
       "cleanup": "Object removal & cleanup",
       "any_style": "Any art style transfer",
-      "travel": "Travel photography"
+      "travel": "Travel photography",
+      "expensive": "Premium interior",
+      "scandi": "Scandinavian cozy",
+      "loft": "Industrial loft",
+      "staging": "Virtual staging"
     }
   }
 }

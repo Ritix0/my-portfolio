@@ -50,6 +50,10 @@ import selfieBase from './assets/portfolio/Селфи для стилизаци�
 import selfieStyle from './assets/portfolio/Любой стиль.png';
 import bizBase from './assets/portfolio/Бизнес-апгрейд.png';
 import bizUpgrade from './assets/portfolio/Бизнес.png';
+import roomExpensive from './assets/portfolio/Дорогой.png';
+import roomScandi from './assets/portfolio/Скандинавский уют.png';
+import roomLoft from './assets/portfolio/Индустриальный Лофт.png';
+
 
 const projects = [
   { id: 1, category: 'brands', before: personBase, after: personAtmosphere, tags: ['atmospheric', 'lighting'] },
@@ -58,6 +62,9 @@ const projects = [
   { id: 4, category: 'brands', before: personBase, after: personLight, tags: ['light_isolated'] },
   { id: 5, category: 'brands', before: personStyleRef, after: personStyleResult, tags: ['style_ref', 'style_transfer'] },
   { id: 6, category: 'brands', before: personAccsRef, after: personAccsResult, tags: ['accessories_ref', 'accessories'] },
+  { id: 28, category: 'realestate', before: roomBase2, after: roomExpensive, tags: ['expensive', 'lighting', 'furnishing'] },
+  { id: 29, category: 'realestate', before: roomBase2, after: roomScandi, tags: ['scandi', 'furnishing', 'staging'] },
+  { id: 30, category: 'realestate', before: roomBase2, after: roomLoft, tags: ['loft', 'interior_finish', 'furnishing'] },
   { id: 7, category: 'realestate', before: roomBase1, after: roomFinish, tags: ['interior_finish'] },
   { id: 8, category: 'realestate', before: roomBase1, after: roomFurnishing, tags: ['furnishing'] },
   { id: 9, category: 'realestate', before: roomBase2, after: roomView, tags: ['view_change'] },
@@ -71,26 +78,14 @@ const projects = [
   { id: 17, category: 'ecommerce', before: shoeBase, after: shoeRecolor, tags: ['recolor'] },
   { id: 18, category: 'ecommerce', before: shoeBase, after: shoeLight, tags: ['lighting'] },
   { id: 19, category: 'ecommerce', before: shoeBase, after: shoePlastic, tags: ['plastic', 'material_color'] },
-  { 
-    id: 20, 
-    category: 'ecommerce', 
-    before: shoeBase, 
-    after: shoeMacro, 
-    tags: ['macro', 'lighting'] 
-  },
-  { 
-  id: 21, 
-  category: 'brands', 
-  before: modelBase, 
-  after: modelLogo, 
-  tags: ['logo_overlay'] 
-},
-{ id: 22, category: 'personal', before: girlBase, after: girlNight, tags: ['view_change', 'lighting'] },
-{ id: 23, category: 'personal', before: girlBase, after: girlTravel, tags: ['travel', 'view_change'] },
-{ id: 24, category: 'personal', before: girlBase, after: girlStyle, tags: ['style_transfer'] },
-{ id: 25, category: 'personal', before: trashBase, after: trashClear, tags: ['cleanup'] },
-{ id: 26, category: 'personal', before: selfieBase, after: selfieStyle, tags: ['any_style', 'style_transfer'] },
-{ id: 27, category: 'personal', before: bizBase, after: bizUpgrade, tags: ['business', 'lighting'] },
+  { id: 20, category: 'ecommerce', before: shoeBase, after: shoeMacro, tags: ['macro', 'lighting'] },
+  { id: 21, category: 'brands', before: modelBase, after: modelLogo, tags: ['logo_overlay'] },
+  { id: 22, category: 'personal', before: girlBase, after: girlNight, tags: ['view_change', 'lighting'] },
+  { id: 23, category: 'personal', before: girlBase, after: girlTravel, tags: ['travel', 'view_change'] },
+  { id: 24, category: 'personal', before: girlBase, after: girlStyle, tags: ['style_transfer'] },
+  { id: 25, category: 'personal', before: trashBase, after: trashClear, tags: ['cleanup'] },
+  { id: 26, category: 'personal', before: selfieBase, after: selfieStyle, tags: ['any_style', 'style_transfer'] },
+  { id: 27, category: 'personal', before: bizBase, after: bizUpgrade, tags: ['business', 'lighting'] },
 ];
 
 const CONTACTS = {
@@ -98,7 +93,7 @@ const CONTACTS = {
   telegram: "https://t.me/M1LLiGaT"
 };
 
-const CATEGORIES = ['ecommerce', 'brands', 'realestate', 'personal'];
+const CATEGORIES = ['realestate','ecommerce', 'brands',  'personal'];
 
 function App() {
   const { t, i18n } = useTranslation();
